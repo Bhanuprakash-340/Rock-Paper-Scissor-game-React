@@ -1,0 +1,100 @@
+.game-view-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .game-view-container {
+    width: 50%;
+    margin-top: 40px;
+  }
+}
+
+.button-img {
+  width: 45%;
+  margin: 5px;
+  border: none;
+  background-color: transparent;
+}
+
+.images {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .images {
+    width: 50%;
+  }
+}
+
+.result-view-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.extra {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.your-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  color: #ffffff;
+}
+
+.opponent-option {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.heading {
+  font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 26px;
+  }
+}
+
+.status-text {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .status-text {
+    font-size: 25px;
+  }
+}
+
+.play-again-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-again-button {
+  padding: 5px 15px 5px 15px;
+  margin-top: 20px;
+  font-family: 'Bree serif';
+}

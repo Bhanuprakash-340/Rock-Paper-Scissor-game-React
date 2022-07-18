@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0px;
+}
+
+.app-container {
+  background-color: #223a5f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-container {
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.texts {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .texts {
+    font-size: 30px;
+  }
+}
+
+.score-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #223a5f;
+  height: 75px;
+  width: 75px;
+  font-family: 'Bree Serif';
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .score-card {
+    height: 130px;
+    width: 130px;
+    font-size: 20px;
+  }
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 40px;
+  align-self: flex-end;
+  padding-bottom: 60px;
+}
+
+.rules-button {
+  font-family: 'Bree serif';
+  padding: 5px 15px 5px 15px;
+  margin-top: 20px;
+}
+
+.pop-up {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-container {
+  background-color: #ffffff;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .popup-container {
+    height: 80%;
+    width: 80%;
+  }
+}
+
+.pop-image {
+  height: 80%;
+  width: 80%;
+  padding-bottom: 10%;
+}
+
+.cross-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 10%;
+  border-radius: 0px;
+  border: none;
+  align-self: flex-end;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .cross-button {
+    height: 20%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cross-line {
+    font-size: 60px;
+  }
+}

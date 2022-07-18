@@ -1,0 +1,32 @@
+.score-board-container {
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-board-container {
+    width: 50%;
+  }
+}
+
+.rock-paper-scissors {
+  font-size: 20px;
+  font-family: 'Bree Serif';
+}
+
+@media screen and (min-width: 768px) {
+  .rock-paper-scissors {
+    font-size: 30px;
+  }
+}
+
+.score-text {
+  font-size: 30px;
+  font-family: 'Roboto';
+}
